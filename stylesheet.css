@@ -1,0 +1,79 @@
+/* For the whole page */
+* {
+	background-color: #ffffff;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #484848;
+
+}
+/* Links on Top */
+#top a:hover {
+	text-decoration: underline;
+	}
+/* Top align */
+#top {
+		display: block;
+		line-height: 30px;
+		vertical-align: middle;
+	}
+/* Margin and position between divs */
+#top div {
+		float: right;
+		margin: 10px 10px 10px 10px;
+	}
+/* round image */
+.circle {
+	width: 30px; height: 30px;
+	border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	background: url(https://lh5.googleusercontent.com/-aQr_jkuEQXM/AAAAAAAAAAI/AAAAAAAAAAA/hWAwt91lRA8/s64-c/photo.jpg);
+	background-size: 30px;
+	background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+/* Search things */
+#middle {
+	clear: both;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	text-align: center;
+}
+/* Text box */
+.t_size {
+	width: 570px; height: 25px; padding: 1px;
+	border: 1px solid #c6c6c6;
+}
+/* Search buttons */
+.button {
+	background-color: #F0F0F0;
+	color: #595959;
+	width: 120px; height: 45px; padding: 1px;
+	border: 1px solid #c6c6c6;
+	font-weight: bold;
+
+}
+/* Footer links */
+.footer {
+	display: block;
+	vertical-align: middle;
+	margin: 10px 10px 10px 10px;
+	text-align: center;
+}
+#f_left {
+	float: left;
+	padding-right: 50%;
+}
+#f_left div{
+	display: inline-block;
+	margin-left: 10px;
+}
+#f_right {
+	float: right;
+}
+#f_right div{
+	display: inline-block;
+	margin-left: 10px;
+}
